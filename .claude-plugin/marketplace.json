@@ -1,6 +1,6 @@
 {
   "name": "viprasol",
-  "description": "Every free Claude Code plugin from Viprasol Tech in one marketplace: trading, fintech, India Stack, crypto bots, TradingView automation, voice agents and video editing.",
+  "description": "Every free Claude Code plugin from Viprasol Tech in one marketplace: trading, options, fintech, India Stack, crypto bots, TradingView automation, voice agents and video editing.",
   "owner": {
     "name": "Viprasol Tech",
     "email": "support@viprasol.com",
@@ -12,49 +12,96 @@
       "description": "10 skills: Pine Script v6 writer and debugger, MQL5 EA builder and reviewer, backtest auditor (PSR / Deflated Sharpe), strategy spec, position sizing, trading-bot security, trade journal, and Kalshi / Polymarket bots.",
       "category": "finance",
       "homepage": "https://github.com/Viprasol-Tech/claude-trading-skills",
-      "source": {"source": "git-subdir", "url": "Viprasol-Tech/claude-trading-skills", "path": "plugins/trading-studio", "ref": "main"}
+      "source": {
+        "source": "git-subdir",
+        "url": "Viprasol-Tech/claude-trading-skills",
+        "path": "plugins/trading-studio",
+        "ref": "main"
+      }
     },
     {
       "name": "tradingview-automation",
       "description": "6 skills: TradingView alert design, secure webhook receivers, signal-to-order workers, Indian brokers under SEBI's 2026 algo rules, crypto and MT5 bridges, and TradingView chart libraries.",
       "category": "finance",
       "homepage": "https://github.com/Viprasol-Tech/claude-tradingview-automation-skills",
-      "source": {"source": "git-subdir", "url": "Viprasol-Tech/claude-tradingview-automation-skills", "path": "plugins/tradingview-automation", "ref": "main"}
+      "source": {
+        "source": "git-subdir",
+        "url": "Viprasol-Tech/claude-tradingview-automation-skills",
+        "path": "plugins/tradingview-automation",
+        "ref": "main"
+      }
+    },
+    {
+      "name": "options-desk",
+      "description": "6 skills: option pricing, Greeks and implied volatility, exact multi-leg payoffs, option chain data, spread orders on IBKR / Alpaca / Tradier / Kite, NSE and SEBI F&O rules, and options backtesting.",
+      "category": "finance",
+      "homepage": "https://github.com/Viprasol-Tech/claude-options-trading-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "Viprasol-Tech/claude-options-trading-skills",
+        "path": "plugins/options-desk",
+        "ref": "main"
+      }
     },
     {
       "name": "crypto-bots",
       "description": "7 skills: exchange API signing, order precision filters, rate limits, order book sync, order lifecycle, perpetual futures risk and Hyperliquid / Solana bots.",
       "category": "finance",
       "homepage": "https://github.com/Viprasol-Tech/claude-crypto-bot-skills",
-      "source": {"source": "git-subdir", "url": "Viprasol-Tech/claude-crypto-bot-skills", "path": "plugins/crypto-bots", "ref": "main"}
+      "source": {
+        "source": "git-subdir",
+        "url": "Viprasol-Tech/claude-crypto-bot-skills",
+        "path": "plugins/crypto-bots",
+        "ref": "main"
+      }
     },
     {
       "name": "fintech-studio",
       "description": "8 skills: money maths, double-entry ledgers, Stripe / Razorpay / PayPal / Adyen payments, webhook security, subscriptions, reconciliation, PCI DSS scope and KYC/AML flows.",
       "category": "finance",
       "homepage": "https://github.com/Viprasol-Tech/claude-fintech-skills",
-      "source": {"source": "git-subdir", "url": "Viprasol-Tech/claude-fintech-skills", "path": "plugins/fintech-studio", "ref": "main"}
+      "source": {
+        "source": "git-subdir",
+        "url": "Viprasol-Tech/claude-fintech-skills",
+        "path": "plugins/fintech-studio",
+        "ref": "main"
+      }
     },
     {
       "name": "india-stack",
       "description": "7 skills: UPI payments, GST invoicing, Indian ID and GSTIN validation, Aadhaar eKYC, Account Aggregator, RBI payment rules and DPDP privacy.",
       "category": "finance",
       "homepage": "https://github.com/Viprasol-Tech/claude-india-stack-skills",
-      "source": {"source": "git-subdir", "url": "Viprasol-Tech/claude-india-stack-skills", "path": "plugins/india-stack", "ref": "main"}
+      "source": {
+        "source": "git-subdir",
+        "url": "Viprasol-Tech/claude-india-stack-skills",
+        "path": "plugins/india-stack",
+        "ref": "main"
+      }
     },
     {
       "name": "voice-agents",
       "description": "7 skills: voice agent architecture, telephony, voice prompting, latency tuning, testing, calling compliance and audio formats.",
       "category": "development",
       "homepage": "https://github.com/Viprasol-Tech/claude-voice-agent-skills",
-      "source": {"source": "git-subdir", "url": "Viprasol-Tech/claude-voice-agent-skills", "path": "plugins/voice-agents", "ref": "main"}
+      "source": {
+        "source": "git-subdir",
+        "url": "Viprasol-Tech/claude-voice-agent-skills",
+        "path": "plugins/voice-agents",
+        "ref": "main"
+      }
     },
     {
       "name": "video-studio",
       "description": "Free video editor in Claude Code: video-director plus 42 genre skills, 46 style skins and 5 finishing and delivery skills on one local engine.",
       "category": "productivity",
       "homepage": "https://github.com/Viprasol-Tech/claude-video-editing-skills",
-      "source": {"source": "git-subdir", "url": "Viprasol-Tech/claude-video-editing-skills", "path": "plugins/video-studio", "ref": "main"}
+      "source": {
+        "source": "git-subdir",
+        "url": "Viprasol-Tech/claude-video-editing-skills",
+        "path": "plugins/video-studio",
+        "ref": "main"
+      }
     }
   ]
 }

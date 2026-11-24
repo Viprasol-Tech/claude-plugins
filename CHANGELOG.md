@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.0] - 2026-11-24
+
+### Added
+- `options-desk` (claude-options-trading-skills): 6 options engineering skills.
+
 ## [1.0.0] - 2026-11-24
 
 ### Added

@@ -1,15 +1,15 @@
 <div align="center">
 
-<img src=".github/social-preview.png" alt="Viprasol Claude Code plugins: one marketplace, seven free plugins, 140 skills for trading, fintech, India Stack, voice agents and video." width="100%">
+<img src=".github/social-preview.png" alt="Viprasol Claude Code plugins: one marketplace, eight free plugins, 146 skills for trading, fintech, India Stack, voice agents and video." width="100%">
 
 ### Every free Claude Code plugin from Viprasol, in one marketplace
 
-**Trading · TradingView automation · crypto bots · fintech · India Stack · voice agents · video editing**<br>
+**Trading · options · TradingView automation · crypto bots · fintech · India Stack · voice agents · video editing**<br>
 Add the marketplace once, then install only the plugins you need.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-25342f?style=for-the-badge)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-marketplace-d97757?style=for-the-badge)](https://code.claude.com/docs/en/plugins/create-marketplace)
-[![Plugins](https://img.shields.io/badge/plugins-7-765820?style=for-the-badge)](#-plugins)
+[![Plugins](https://img.shields.io/badge/plugins-8-765820?style=for-the-badge)](#-plugins)
 [![CI](https://img.shields.io/github/actions/workflow/status/Viprasol-Tech/claude-plugins/ci.yml?branch=main&style=for-the-badge&label=links)](https://github.com/Viprasol-Tech/claude-plugins/actions/workflows/ci.yml)
 
 </div>
@@ -27,6 +27,7 @@ Then pick what you need:
 ```bash
 claude plugin install trading-studio@viprasol
 claude plugin install tradingview-automation@viprasol
+claude plugin install options-desk@viprasol
 claude plugin install crypto-bots@viprasol
 claude plugin install fintech-studio@viprasol
 claude plugin install india-stack@viprasol
@@ -44,6 +45,7 @@ Skills load automatically when your request matches, or call one directly as
 | --- | ---: | --- | --- |
 | 📈 **`trading-studio`** | 10 | Pine Script v6, MQL5 Expert Advisors, backtest audits with Deflated Sharpe, position sizing, bot security, trade journals, Kalshi / Polymarket | [claude-trading-skills](https://github.com/Viprasol-Tech/claude-trading-skills) |
 | 🔔 **`tradingview-automation`** | 6 | TradingView alerts and webhooks, signal-to-order workers, Zerodha / Angel One / Dhan / Upstox under SEBI's 2026 algo rules, MT5 and crypto bridges, TradingView charts | [claude-tradingview-automation-skills](https://github.com/Viprasol-Tech/claude-tradingview-automation-skills) |
+| 🧮 **`options-desk`** | 6 | Option pricing, Greeks and IV, exact multi-leg payoffs, chain data, spread orders on IBKR / Alpaca / Tradier / Kite, NSE & SEBI F&O rules, options backtests | [claude-options-trading-skills](https://github.com/Viprasol-Tech/claude-options-trading-skills) |
 | 🪙 **`crypto-bots`** | 7 | Binance / Bybit / OKX signing, tick and lot filters, rate limits, order book sync, order lifecycle, perps liquidation maths, Hyperliquid and Solana | [claude-crypto-bot-skills](https://github.com/Viprasol-Tech/claude-crypto-bot-skills) |
 | 💳 **`fintech-studio`** | 8 | Money maths, double-entry ledgers, Stripe / Razorpay / PayPal / Adyen, webhook security, subscriptions, reconciliation, PCI DSS, KYC/AML | [claude-fintech-skills](https://github.com/Viprasol-Tech/claude-fintech-skills) |
 | 🇮🇳 **`india-stack`** | 7 | UPI, GST invoicing, GSTIN / PAN / Aadhaar validation, Aadhaar eKYC, Account Aggregator, RBI payment rules, DPDP | [claude-india-stack-skills](https://github.com/Viprasol-Tech/claude-india-stack-skills) |
