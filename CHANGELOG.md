@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.3.0] - 2026-11-24
+
+### Added
+- `market-data` (claude-market-data-skills): 6 market data engineering skills.
+
 ## [1.2.0] - 2026-11-24
 
 ### Added

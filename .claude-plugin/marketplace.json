@@ -1,6 +1,6 @@
 {
   "name": "viprasol",
-  "description": "Every free Claude Code plugin from Viprasol Tech in one marketplace: trading, options, prop firms, fintech, India Stack, crypto bots, TradingView automation, voice agents and video editing.",
+  "description": "Every free Claude Code plugin from Viprasol Tech in one marketplace: trading, options, prop firms, market data, fintech, India Stack, crypto bots, TradingView automation, voice agents and video editing.",
   "owner": {
     "name": "Viprasol Tech",
     "email": "support@viprasol.com",
@@ -52,6 +52,18 @@
         "source": "git-subdir",
         "url": "Viprasol-Tech/claude-prop-firm-skills",
         "path": "plugins/prop-firm-guard",
+        "ref": "main"
+      }
+    },
+    {
+      "name": "market-data",
+      "description": "6 skills: split and dividend adjustment, data quality checks, bar building, exchange calendars, timestamps and storage for trading systems.",
+      "category": "data",
+      "homepage": "https://github.com/Viprasol-Tech/claude-market-data-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "Viprasol-Tech/claude-market-data-skills",
+        "path": "plugins/market-data",
         "ref": "main"
       }
     },
