@@ -1,0 +1,15 @@
+name: Plugin idea
+description: Suggest a new Claude Code plugin for the Viprasol marketplace
+labels: ["idea"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What should Claude be able to do?
+      description: The tasks, platforms or APIs the plugin would cover.
+    validations:
+      required: true
+  - type: textarea
+    id: who
+    attributes:
+      label: Who would use it?
