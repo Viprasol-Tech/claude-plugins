@@ -1,6 +1,6 @@
 {
   "name": "viprasol",
-  "description": "Every free Claude Code plugin from Viprasol Tech in one marketplace: trading, options, fintech, India Stack, crypto bots, TradingView automation, voice agents and video editing.",
+  "description": "Every free Claude Code plugin from Viprasol Tech in one marketplace: trading, options, prop firms, fintech, India Stack, crypto bots, TradingView automation, voice agents and video editing.",
   "owner": {
     "name": "Viprasol Tech",
     "email": "support@viprasol.com",
@@ -40,6 +40,18 @@
         "source": "git-subdir",
         "url": "Viprasol-Tech/claude-options-trading-skills",
         "path": "plugins/options-desk",
+        "ref": "main"
+      }
+    },
+    {
+      "name": "prop-firm-guard",
+      "description": "6 skills: prop-firm drawdown rules computed like each firm does, challenge pass odds, an MT5 equity guard EA, futures trailing-drawdown guards, restricted practices and rule-aware journals.",
+      "category": "finance",
+      "homepage": "https://github.com/Viprasol-Tech/claude-prop-firm-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "Viprasol-Tech/claude-prop-firm-skills",
+        "path": "plugins/prop-firm-guard",
         "ref": "main"
       }
     },

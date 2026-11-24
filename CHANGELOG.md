@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.2.0] - 2026-11-24
+
+### Added
+- `prop-firm-guard` (claude-prop-firm-skills): 6 prop-firm compliance skills.
+
 ## [1.1.0] - 2026-11-24
 
 ### Added
