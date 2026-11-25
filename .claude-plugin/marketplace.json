@@ -1,6 +1,6 @@
 {
   "name": "viprasol",
-  "description": "Every free Claude Code plugin from Viprasol Tech in one marketplace: trading, options, prop firms, market data, fintech, India Stack, crypto bots, TradingView automation, voice agents and video editing.",
+  "description": "Every free Claude Code plugin from Viprasol Tech in one marketplace: trading, AI trading agents, options, prop firms, market data, fintech, India Stack, crypto bots, TradingView automation, voice agents and video editing.",
   "owner": {
     "name": "Viprasol Tech",
     "email": "support@viprasol.com",
@@ -16,6 +16,18 @@
         "source": "git-subdir",
         "url": "Viprasol-Tech/claude-trading-skills",
         "path": "plugins/trading-studio",
+        "ref": "main"
+      }
+    },
+    {
+      "name": "agent-trading-guard",
+      "description": "6 skills for LLM trading agents that cannot blow up an account: deterministic order gate, prompt-injection defence, training-data leakage in backtests, safe broker MCP servers and audit trails.",
+      "category": "finance",
+      "homepage": "https://github.com/Viprasol-Tech/claude-ai-trading-agent-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "Viprasol-Tech/claude-ai-trading-agent-skills",
+        "path": "plugins/agent-trading-guard",
         "ref": "main"
       }
     },

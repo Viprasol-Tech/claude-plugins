@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.4.0] - 2026-11-25
+
+### Added
+- `agent-trading-guard` (claude-ai-trading-agent-skills): 6 skills for safe LLM trading agents.
+
 ## [1.3.0] - 2026-11-24
 
 ### Added

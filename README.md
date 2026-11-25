@@ -1,15 +1,15 @@
 <div align="center">
 
-<img src=".github/social-preview.png" alt="Viprasol Claude Code plugins: one marketplace, ten free plugins, 158 skills for trading, fintech, India Stack, voice agents and video." width="100%">
+<img src=".github/social-preview.png" alt="Viprasol Claude Code plugins: one marketplace, eleven free plugins, 164 skills for trading, fintech, India Stack, voice agents and video." width="100%">
 
 ### Every free Claude Code plugin from Viprasol, in one marketplace
 
-**Trading · options · prop firms · market data · TradingView automation · crypto bots · fintech · India Stack · voice agents · video editing**<br>
+**Trading · AI trading agents · options · prop firms · market data · TradingView automation · crypto bots · fintech · India Stack · voice agents · video editing**<br>
 Add the marketplace once, then install only the plugins you need.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-25342f?style=for-the-badge)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-marketplace-d97757?style=for-the-badge)](https://code.claude.com/docs/en/plugins/create-marketplace)
-[![Plugins](https://img.shields.io/badge/plugins-10-765820?style=for-the-badge)](#-plugins)
+[![Plugins](https://img.shields.io/badge/plugins-11-765820?style=for-the-badge)](#-plugins)
 [![CI](https://img.shields.io/github/actions/workflow/status/Viprasol-Tech/claude-plugins/ci.yml?branch=main&style=for-the-badge&label=links)](https://github.com/Viprasol-Tech/claude-plugins/actions/workflows/ci.yml)
 
 </div>
@@ -26,6 +26,7 @@ Then pick what you need:
 
 ```bash
 claude plugin install trading-studio@viprasol
+claude plugin install agent-trading-guard@viprasol
 claude plugin install tradingview-automation@viprasol
 claude plugin install options-desk@viprasol
 claude plugin install prop-firm-guard@viprasol
@@ -46,6 +47,7 @@ Skills load automatically when your request matches, or call one directly as
 | Plugin | Skills | For | Source |
 | --- | ---: | --- | --- |
 | 📈 **`trading-studio`** | 10 | Pine Script v6, MQL5 Expert Advisors, backtest audits with Deflated Sharpe, position sizing, bot security, trade journals, Kalshi / Polymarket | [claude-trading-skills](https://github.com/Viprasol-Tech/claude-trading-skills) |
+| 🤖 **`agent-trading-guard`** | 6 | LLM trading agents that can't blow up an account: deterministic order gate, prompt-injection defence, backtest leakage audit, safe broker MCP servers, audit trails | [claude-ai-trading-agent-skills](https://github.com/Viprasol-Tech/claude-ai-trading-agent-skills) |
 | 🔔 **`tradingview-automation`** | 6 | TradingView alerts and webhooks, signal-to-order workers, Zerodha / Angel One / Dhan / Upstox under SEBI's 2026 algo rules, MT5 and crypto bridges, TradingView charts | [claude-tradingview-automation-skills](https://github.com/Viprasol-Tech/claude-tradingview-automation-skills) |
 | 🧮 **`options-desk`** | 6 | Option pricing, Greeks and IV, exact multi-leg payoffs, chain data, spread orders on IBKR / Alpaca / Tradier / Kite, NSE & SEBI F&O rules, options backtests | [claude-options-trading-skills](https://github.com/Viprasol-Tech/claude-options-trading-skills) |
 | 🛡️ **`prop-firm-guard`** | 6 | Prop-firm drawdown rules computed like FTMO, FundedNext, The5ers, FundingPips, Topstep and Apex do, challenge pass odds, MT5 equity guard EA, futures trailing-drawdown guards | [claude-prop-firm-skills](https://github.com/Viprasol-Tech/claude-prop-firm-skills) |
