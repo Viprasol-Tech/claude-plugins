@@ -1,6 +1,6 @@
 {
   "name": "viprasol",
-  "description": "Every free Claude Code plugin from Viprasol Tech in one marketplace: trading, AI trading agents, options, prop firms, market data, fintech, India Stack, crypto bots, TradingView automation, voice agents and video editing.",
+  "description": "Every free Claude Code plugin from Viprasol Tech in one marketplace: trading, AI trading agents, ML for trading, options, prop firms, market data, fintech, India Stack, crypto bots, TradingView automation, voice agents and video editing.",
   "owner": {
     "name": "Viprasol Tech",
     "email": "support@viprasol.com",
@@ -28,6 +28,18 @@
         "source": "git-subdir",
         "url": "Viprasol-Tech/claude-ai-trading-agent-skills",
         "path": "plugins/agent-trading-guard",
+        "ref": "main"
+      }
+    },
+    {
+      "name": "ml-trading-lab",
+      "description": "6 skills for machine learning in trading without leakage: triple-barrier labels, purged cross-validation, leakage-free features, honest evaluation, bet sizing and deployment.",
+      "category": "data",
+      "homepage": "https://github.com/Viprasol-Tech/claude-ml-trading-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "Viprasol-Tech/claude-ml-trading-skills",
+        "path": "plugins/ml-trading-lab",
         "ref": "main"
       }
     },

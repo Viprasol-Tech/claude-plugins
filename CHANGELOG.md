@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.5.0] - 2026-11-25
+
+### Added
+- `ml-trading-lab` (claude-ml-trading-skills): 6 machine-learning-for-trading skills.
+
 ## [1.4.0] - 2026-11-25
 
 ### Added
